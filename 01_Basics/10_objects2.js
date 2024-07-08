@@ -42,8 +42,26 @@ const obj2={
 // console.log(obj3)
 
 
-console.log(tinderUser)
-console.log(Object.keys(tinderUser));
-console.log(Object.values(tinderUser));
-console.log(Object.entries(tinderUser));
-console.log(tinderUser.hasOwnProperty('isLoggedIn'));
+// console.log(tinderUser)
+// console.log(Object.keys(tinderUser));
+// console.log(Object.values(tinderUser));
+// console.log(Object.entries(tinderUser));
+// console.log(tinderUser.hasOwnProperty('isLoggedIn'));
+
+
+const course={
+    coursename:"js in hindi",
+    price:"999",
+    courseInstructor:"hitesh"
+}
+
+// destructure
+
+//course.courseInstructor
+//const {courseInstructor}=course
+const {courseInstructor:Instructor}=course
+console.log(Instructor)
+
+
+
+ 
