@@ -8,6 +8,8 @@
 // console.log(values)
 
 
+// filter
+
 const myNums=[1,2,3,4,5,6,7,8,9,10]
 
 // const newNums=myNums.filter( (num)=>num>4 )
@@ -62,6 +64,8 @@ const myNumber=[1,2,3,4,5,6,7,8,9,10]
 //               .filter((num)=>num>=40)
 // console.log(newNums)              
 
+
+// reduce
 
 const myNumbs=[1,2,3]
 // const mytotal=myNumbs.reduce(function(acc,currval){
